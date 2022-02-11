@@ -1,15 +1,16 @@
 package com.example.usersApp.Dtos;
 
-import lombok.Getter;
-import lombok.Setter;
-
-
 public class UserDto {
 
     private int id ;
     private String name;
     private String email;
 
+
+    public UserDto(int id,String name,String email)
+    {
+
+    }
 
     public int getId() {
         return id;
